@@ -5,7 +5,8 @@ window.addEventListener("scroll", function(){
 
 const menuBtn = document.querySelector(".menu-btn");
 const navigation = document.querySelector(".navigation");
-const navigationItems = document.querySelectorAll(".navigation a"); 
+const navigationItems = document.querySelectorAll(".navigation a");
+const scrollBtn = document.querySelector(".scrollToTop-btn"); 
 
 menuBtn.addEventListener("click", () => {
     menuBtn.classList.toggle("active");
@@ -18,8 +19,6 @@ navigationItems.forEach((navigationItems) => {
         navigation.classList.remove("active");
     });
 });
-
-const scrollBtn = document.querySelector(".scrollToTop-btn");
 
 window.addEventListener("scroll", function(){
     scrollBtn.classList.toggle("active", window.scrollY > 500);
