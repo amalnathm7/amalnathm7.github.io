@@ -43,7 +43,7 @@ section{
 
 .animated-text{
     position: relative;
-    height: 50px;
+    height: 70px;
     overflow: hidden;
 }
 
@@ -51,7 +51,7 @@ section{
     color: black;
     font-size: 3em;
     font-weight: 700;
-    line-height: 50px;
+    line-height: 70px;
     letter-spacing: 1px;
 }
 
@@ -64,13 +64,13 @@ section{
         margin-top: 0;
     }
     25%{
-        margin-top: -100px;
+        margin-top: -70px;
     }
     50%{
-        margin-top: -200px;
+        margin-top: -140px;
     }
     75%{
-        margin-top: -100px;
+        margin-top: -70px;
     }
     100%{
         margin-top: 0px;
@@ -556,10 +556,6 @@ body{
     font-size: 15px;
 }
 
-.animated-text h3:nth-child(1){
-    animation: text-move 5s infinite;
-}
-
 @media (max-width: 800px){
     .main{
         background: url(images/bgphn.jpg)no-repeat;
@@ -639,12 +635,21 @@ body{
         font-size: 1.2em;  
     }
 
-    .animated-text h3{
-        font-weight: 700;
-        font-size: 1.4em;
+    .animated-text{
+        height: 50px;
     }
 
-    @keyframes text-move{
+    .animated-text h3{
+        font-weight: 700;
+        font-size: 1.5em;
+        line-height: 50px;
+    }
+
+    .animated-text h3:nth-child(1){
+        animation: text-moves 5s infinite;
+    }
+
+    @keyframes text-moves{
         0%{
             margin-top: 0;
         }
