@@ -6,7 +6,8 @@ window.addEventListener("scroll", function(){
 const menuBtn = document.querySelector(".menu-btn");
 const navigation = document.querySelector(".navigation");
 const navigationItems = document.querySelectorAll(".navigation a");
-const scrollBtn = document.querySelector(".scrollToTop-btn"); 
+const scrollBtn = document.querySelector(".scrollToTop-btn");
+const projectBtn = document.querySelectorAll(".card-img");
 
 menuBtn.addEventListener("click", () => {
     menuBtn.classList.toggle("active");
@@ -44,3 +45,19 @@ function reveal(){
         }
     }
 }
+
+projectBtn[0].addEventListener("click", () => {
+    window.open("https://play.google.com/store/apps/details?id=com.referl.referl");
+});
+projectBtn[1].addEventListener("click", () => {
+    window.open("https://github.com/amalnathm7/Bingo");
+});
+projectBtn[2].addEventListener("click", () => {
+    window.open("https://github.com/amalnathm7/Memoir");
+});
+projectBtn[3].addEventListener("click", () => {
+    window.open("https://github.com/amalnathm7/Bmi_calculator");
+});
+projectBtn[4].addEventListener("click", () => {
+    window.open("https://github.com/amalnathm7/Calculator");
+});
