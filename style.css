@@ -589,12 +589,12 @@ body{
 
     .main .content h2{
         font-weight: 600;
-        font-size: 1.3em;  
+        font-size: 1.2em;  
     }
 
     .animated-text h3{
         font-weight: 700;
-        font-size: 1.5em;
+        font-size: 1.4em;
     }
 
     @keyframes text-move{
