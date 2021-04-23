@@ -526,9 +526,13 @@ body{
     text-decoration: none;
 }
 
+.footer .desc{
+    font-size: 15px;
+}
+
 @media (max-width: 840px){
     .main{
-        background: url(images/bgphn.jpg);
+        background: url(images/bgphn.jpg)no-repeat;
     }
 
     header{
