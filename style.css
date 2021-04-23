@@ -515,11 +515,68 @@ body{
     text-decoration: none;
 }
 
-@media (max-width: 1040px){
+@media (max-width: 840px){
     header{
         padding: 10px 20px;
     }
+
     header.sticky{
         padding: 10px 20px;
+    }
+
+    header .navigation{
+        display: none;
+    }
+
+    header .navigation.active{
+        z-index: 888;
+        position: fixed;
+        background: wheat;
+        top: 0;
+        right: 0;
+        width: 388px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+        transition: 0.3s ease;
+    }
+
+    header .navigation a{
+        color: black;
+        font-size: 2em;
+        font-weight: 500;
+        margin: 30px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    header .navigation a:hover{
+        background: black;
+        transition: 0.3s ease;
+    }
+
+    .menu-btn{
+        position: absolute;
+        background: url(images/menu.png)no-repeat;
+        background-size: 30px;
+        background-position: center;
+        width: 40px;
+        height: 40px;
+        right: 0;
+        margin: 0 20px;
+        cursor: pointer;
+        transition: 0.3s ease;
+    }
+
+    .menu-btn.active{
+        z-index: 999;
+        background: url(images/close.png)no-repeat;
+        background-size: 25px;
+        background-position: center;
+        transition: 0.3s ease;
+        filter: invert(1);
     }
 }
