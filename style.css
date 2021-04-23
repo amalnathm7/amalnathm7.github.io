@@ -35,7 +35,7 @@ section{
 }
 
 .main .content h2 span{
-    color: wheat;
+    color: whitesmoke;
     font-size: 3em;
     font-weight: 600;
 }
@@ -517,11 +517,11 @@ body{
 
 @media (max-width: 840px){
     header{
-        padding: 10px 20px;
+        padding: 5px 30px;
     }
 
     header.sticky{
-        padding: 10px 20px;
+        padding: 5px 30px;
     }
 
     header .navigation{
