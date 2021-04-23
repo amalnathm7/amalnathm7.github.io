@@ -620,7 +620,7 @@ body{
     .menu-btn.active{
         z-index: 999;
         background: url(images/close.png)no-repeat;
-        background-size: 75%;
+        background-size: 60%;
         background-position: center;
         transition: 0.3s ease;
         filter: invert(1);
