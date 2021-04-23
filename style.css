@@ -556,7 +556,7 @@ body{
     font-size: 15px;
 }
 
-@media (max-width: 840px){
+@media (max-width: 800px){
     .main{
         background: url(images/bgphn.jpg)no-repeat;
     }
