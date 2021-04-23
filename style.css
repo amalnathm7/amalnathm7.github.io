@@ -321,17 +321,17 @@ body{
 
 .skills .content .col-right .bar .c::before{
     width: 95%;
-    background: darkorange;
+    background: green;
 }
 
 .skills .content .col-right .bar .java::before{
     width: 85%;
-    background: darkorange;
+    background: greenyellow;
 }
 
 .skills .content .col-right .bar .dart::before{
     width: 70%;
-    background: darkorange;
+    background: lightgreen;
 }
 
 .skills .content .col-right .bar .python::before{
@@ -341,22 +341,22 @@ body{
 
 .skills .content .col-right .bar .cpp::before{
     width: 75%;
-    background: darkorange;
+    background: lightgreen;
 }
 
 .skills .content .col-right .bar .html::before{
     width: 8%;
-    background: darkorange;
+    background: red;
 }
 
 .skills .content .col-right .bar .css::before{
     width: 5%;
-    background: darkorange;
+    background: red;
 }
 
 .skills .content .col-right .bar .javascript::before{
     width: 10%;
-    background: darkorange;
+    background: red;
 }
 
 .services .content{
