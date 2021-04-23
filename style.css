@@ -77,6 +77,12 @@ section{
     }
 }
 
+a:link, a:visited{
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+  }
+
 .btn{
     color: white;
     background: black;
@@ -496,7 +502,7 @@ body{
     margin: 10px;
 }
 
-.contact .content .row .info span{
+.contact .content .row .info a{
     color: grey;
     font-weight: 500;
 }
