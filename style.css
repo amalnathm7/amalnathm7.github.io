@@ -579,22 +579,23 @@ body{
         background: wheat;
         top: 0;
         right: 0;
-        width: 75%;
+        width: 50%;
         height: 50%;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        flex-wrap: wrap;
         box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
         transition: 0.3s ease;
     }
 
     header .navigation a{
         color: black;
-        font-size: 1.5em;
-        font-weight: 500;
+        font-size: 1.2em;
+        font-weight: 600;
         margin: 5px;
-        padding: 10px;
+        padding-top: 10px;
         border-radius: 10px;
     }
 
