@@ -556,6 +556,10 @@ body{
     font-size: 15px;
 }
 
+.animated-text h3:nth-child(1){
+    animation: text-move 5s infinite;
+}
+
 @media (max-width: 800px){
     .main{
         background: url(images/bgphn.jpg)no-repeat;
