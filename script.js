@@ -18,3 +18,9 @@ navigationItems.forEach((navigationItems) => {
         navigation.classList.remove("active");
     });
 });
+
+const scrollBtn = document.querySelector(".scrollToTop-btn");
+
+window.addEventListener("scroll", function(){
+    scrollBtn.classList.toggle("active", window.scrollY > 500);
+});
