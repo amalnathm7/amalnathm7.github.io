@@ -355,11 +355,16 @@ body{
     flex-wrap: wrap;
     flex-direction: row;
     margin-top: 20px;
+    text-align: center;
 }
 
 .title p{
     font-size: 1em;
     width: 80%;
+}
+
+.services .paragraph-text{
+    text-align: center;
 }
 
 .services .content .card{
