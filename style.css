@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
 *{
     margin: 0;
@@ -14,7 +14,7 @@ section{
 
 .main{
     position: relative;
-    width: 89.5%;
+    width: 100%;
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -32,7 +32,6 @@ section{
     color: white;
     font-size: 3em;
     font-weight: 500;
-    font-family: 'Poppins', sans-serif;
 }
 
 .main .content h2 span{
@@ -50,7 +49,6 @@ section{
 .animated-text h3{
     color: black;
     font-size: 3em;
-    font-family: 'Poppins', sans-serif;
     font-weight: 700;
     line-height: 50px;
     letter-spacing: 1px;
@@ -83,7 +81,6 @@ section{
     background: black;
     font-size: 1em;
     font-weight: 300;
-    font-family: 'Poppins', sans-serif;
     display: inline-block;
     padding: 10px 20px;
     text-transform: uppercase;
@@ -117,13 +114,12 @@ header{
     background: black;
     top: 0;
     left: 0;
-    width: 95%;
+    width: 100%;
     padding: 20px 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     transition: 0.5s ease;
-    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -174,7 +170,6 @@ body{
     color: black;
     font-size: 2.2em;
     font-weight: 800;
-    font-family: 'Poppins', sans-serif;
     margin-bottom: 60px;
 }
 
@@ -203,13 +198,11 @@ body{
 
 .paragraph-text{
     font-size: 1em;
-    font-family: 'Poppins', sans-serif;
 }
 
 .content-title{
     font-size: 2em;
     font-weight: 500;
-    font-family: 'Poppins', sans-serif;
     margin-bottom: 20px;
 }
 
@@ -250,13 +243,11 @@ body{
 .about .content .col-right .content-title{
     font-size: 2em;
     font-weight: 500;
-    font-family: 'Poppins', sans-serif;
     margin-bottom: 20px;
 }
 
 .about .content .col-right .paragraph-text{
     font-size: 1em;
-    font-family: 'Poppins', sans-serif;
 }
 
 .skills{
@@ -291,7 +282,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-family: 'Poppins', sans-serif;
     margin-bottom: 5px;
 }
 
@@ -398,13 +388,11 @@ body{
 .services .content .card .info{
     text-align: center;
     font-size: 1em;
-    font-family: 'Poppins', sans-serif;
 }
 
 .services .content .card .info h3{
     font-size: 2em;
     font-weight: 500;
-    font-family: 'Poppins', sans-serif;
     margin-bottom: 20px;
     color: black;
 }
@@ -500,13 +488,11 @@ body{
     color: black;
     font-size: 1.2em;
     font-weight: 700;
-    font-family: 'Poppins', sans-serif;
     margin: 10px;
 }
 
 .contact .content .row .info span{
     color: grey;
-    font-family: 'Poppins', sans-serif;
     font-weight: 500;
 }
 
@@ -515,7 +501,6 @@ body{
     color: black;
     text-align: center;
     padding: 2em;
-    font-family: 'Poppins', sans-serif;
 }
 
 .footer .footer-title{
