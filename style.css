@@ -595,8 +595,8 @@ body{
         font-size: 1.2em;
         font-weight: 600;
         margin: 5px;
-        padding-top: 10px;
         border-radius: 10px;
+        padding: 7px;
     }
 
     header .navigation a:hover{
