@@ -274,6 +274,14 @@ body{
     width: 46%;
 }
 
+.skills .content .col-left h3{
+    margin-top: 30px;
+}
+
+.skills .content .col-left .card .tech-icon{
+    font-size: 3em;
+}
+
 .skills .content .col-right{
     position: relative;
     width: 46%;
