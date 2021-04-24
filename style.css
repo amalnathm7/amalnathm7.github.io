@@ -36,7 +36,7 @@ section{
 }
 
 .main .content h2 span{
-    color: whitesmoke;
+    color: whitesmoke!important;
     font-size: 3em;
     font-weight: 600;
 }
