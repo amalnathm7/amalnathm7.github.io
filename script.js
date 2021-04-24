@@ -23,7 +23,12 @@ navigationItems.forEach((navigationItems) => {
 
 document.addEventListener("click", function(event) {
     if(event.target.closest(".navigation") || event.target.closest(".menu-btn")) return;
-    
+
+    menuBtn.classList.remove("active");
+    navigation.classList.remove("active");
+});
+
+window.addEventListener("scroll", function() {
     menuBtn.classList.remove("active");
     navigation.classList.remove("active");
 });
