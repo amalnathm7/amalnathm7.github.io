@@ -97,6 +97,10 @@ a:link, a:visited{
     transition: 0.5s ease;
 }
 
+.btn:focus{
+    background: black;
+}
+
 .btn:hover{
     background: gray;
 }
@@ -129,12 +133,10 @@ header{
     transition: 0.5s ease;
 }
 
-
 header.sticky{
     background: gray;
     padding: 5px 50px;
 }
-
 
 header .brand{
     color: wheat;
@@ -560,6 +562,10 @@ body{
 @media (max-width: 800px){
     .main{
         background: url(images/bgphn.jpg)no-repeat;
+    }
+
+    .btn:hover{
+        background: black;
     }
 
     header{

@@ -1,13 +1,13 @@
-window.addEventListener("scroll", function(){
-    const header = document.querySelector("header");
-    header.classList.toggle('sticky', window.scrollY > 0)
-}); 
-
 const menuBtn = document.querySelector(".menu-btn");
 const navigation = document.querySelector(".navigation");
 const navigationItems = document.querySelectorAll(".navigation a");
 const scrollBtn = document.querySelector(".scrollToTop-btn");
 const projectBtn = document.querySelectorAll(".card-img");
+
+window.addEventListener("scroll", function(){
+    const header = document.querySelector("header");
+    header.classList.toggle('sticky', window.scrollY > 0)
+});
 
 menuBtn.addEventListener("click", () => {
     menuBtn.classList.toggle("active");
@@ -19,6 +19,13 @@ navigationItems.forEach((navigationItems) => {
         menuBtn.classList.remove("active");
         navigation.classList.remove("active");
     });
+});
+
+document.addEventListener("click", function(event) {
+    if(event.target.closest(".navigation") || event.target.closest(".menu-btn")) return;
+    
+    menuBtn.classList.remove("active");
+    navigation.classList.remove("active");
 });
 
 window.addEventListener("scroll", function(){
