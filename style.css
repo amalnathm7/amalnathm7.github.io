@@ -752,9 +752,3 @@ body{
     transform: translateY(0);
     opacity: 1;
 }
-
-@media (prefers-color-scheme: dark){
-    .main .content h2 span{
-        color: black;
-    }   
-}
