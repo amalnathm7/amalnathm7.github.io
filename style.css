@@ -343,37 +343,37 @@ body{
 
 
 .skills .content .col-right .bar .c::before{
-    width: 95%;
+    width: 90%;
     background: green;
 }
 
 .skills .content .col-right .bar .java::before{
-    width: 85%;
+    width: 80%;
     background: greenyellow;
 }
 
 .skills .content .col-right .bar .dart::before{
-    width: 70%;
+    width: 65%;
     background: lightgreen;
 }
 
 .skills .content .col-right .bar .python::before{
-    width: 25%;
+    width: 35%;
     background: darkorange;
 }
 
 .skills .content .col-right .bar .cpp::before{
-    width: 75%;
+    width: 70%;
     background: lightgreen;
 }
 
 .skills .content .col-right .bar .html::before{
-    width: 8%;
+    width: 20%;
     background: red;
 }
 
 .skills .content .col-right .bar .css::before{
-    width: 5%;
+    width: 15%;
     background: red;
 }
 
