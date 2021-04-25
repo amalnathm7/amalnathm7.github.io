@@ -714,12 +714,10 @@ body{
     }
 
     .services .content .card:hover .service-icon{
-        transform: translateY(-10px);
         color: black;
     }
 
     .services .content .card:hover .info h3{
-        transform: translateY(-10px);
         color: black;
     }
 }
