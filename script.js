@@ -3,6 +3,7 @@ const navigation = document.querySelector(".navigation");
 const navigationItems = document.querySelectorAll(".navigation a");
 const scrollBtn = document.querySelector(".scrollToTop-btn");
 const projectBtn = document.querySelectorAll(".card-img");
+const services = document.querySelectorAll(".services .content .card");
 
 window.addEventListener("scroll", function(){
     const header = document.querySelector("header");
@@ -73,3 +74,15 @@ projectBtn[3].addEventListener("click", () => {
 projectBtn[4].addEventListener("click", () => {
     window.open("https://github.com/amalnathm7/Calculator");
 });
+
+services[0].addEventListener("click", () => {
+    window.open('mailto:amalnathm7@gmail.com?subject=App Development Project');
+})
+
+services[1].addEventListener("click", () => {
+    window.open('mailto:amalnathm7@gmail.com?subject=Web Development Project');
+})
+
+services[2].addEventListener("click", () => {
+    window.open('mailto:amalnathm7@gmail.com?subject=Desktop Development Project');
+})
