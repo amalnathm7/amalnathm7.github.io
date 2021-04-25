@@ -134,12 +134,11 @@ header{
     transition: 0.5s ease;
 }
 
-header .theme-btn{
+.theme-btn{
     filter: invert(1);
     position: absolute;
     margin: 0 30px;
     left: 110px;
-    padding-right: 20px;
     cursor: pointer;
     font-size: 20px;
 }
@@ -639,6 +638,10 @@ body{
         transition: 0.3s ease;
     }
 
+    .theme-btn{
+        margin: 0 0;
+    }
+
     .menu-btn.active{
         z-index: 999;
         background: url(images/close.png)no-repeat;
@@ -646,15 +649,6 @@ body{
         background-position: center;
         transition: 0.3s ease;
         filter: invert(1);
-    }
-
-    .theme-btn{
-        filter: invert(1);
-        position: absolute;
-        right: 50px;
-        margin: 0 30px;
-        cursor: pointer;
-        font-size: 20px;
     }
 
     section{
