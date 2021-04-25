@@ -627,10 +627,11 @@ body{
 
     .menu-btn.active{
         z-index: 999;
-        background: url(https://www.pinclipart.com/picdir/big/35-356107_miniclip-minecraft.png)no-repeat;
+        background: url(images/close.png)no-repeat;
         background-size: 50%;
         background-position: center;
         transition: 0.3s ease;
+        filter: invert(1);
     }
 
     section{
