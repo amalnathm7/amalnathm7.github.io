@@ -560,7 +560,7 @@ body{
 @media (max-width: 800px){
     .main{
         background: url(images/bgphn.jpg)no-repeat;
-        background-size: 100% 100%;
+        background-size: 100%;
     }
 
     .btn:hover{
