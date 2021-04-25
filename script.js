@@ -4,6 +4,7 @@ const navigationItems = document.querySelectorAll(".navigation a");
 const scrollBtn = document.querySelector(".scrollToTop-btn");
 const projectBtn = document.querySelectorAll(".card-img");
 const services = document.querySelectorAll(".services .content .card");
+const themeBtn = document.querySelector(".theme-btn");
 
 window.addEventListener("scroll", function(){
     const header = document.querySelector("header");
@@ -86,3 +87,7 @@ services[1].addEventListener("click", () => {
 services[2].addEventListener("click", () => {
     window.open('mailto:amalnathm7@gmail.com?subject=Desktop Development Project');
 })
+
+themeBtn.addEventListener("click", () => {
+
+});
