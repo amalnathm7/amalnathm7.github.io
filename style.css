@@ -268,7 +268,6 @@ body{
     display: flex;
     justify-content: space-between;
     color: black;
-    margin-top: 20px;
 }
 
 .skills .content .col-left{
@@ -451,7 +450,6 @@ body{
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 20px;
 }
 
 .projects .content .card{
@@ -487,7 +485,6 @@ body{
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: column;
-    margin-top: 20px;
 }
 
 .contact .content .row{
