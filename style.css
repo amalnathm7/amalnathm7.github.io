@@ -81,7 +81,7 @@ a:link, a:visited{
     text-align: center;
     display: inline-block;
     text-decoration: none;
-  }
+}
 
 .btn{
     color: white;
@@ -498,6 +498,7 @@ body{
     background: wheat;
     width: 240px;
     margin: 20px;
+    margin-top: 10px;
     padding: 25px;
     display: flex;
     justify-content: center;
@@ -529,7 +530,7 @@ body{
 }
 
 .contact .content .row .info a{
-    color: grey;
+    color: green;
     font-weight: 500;
 }
 
