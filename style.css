@@ -712,6 +712,16 @@ body{
     .skills .content .col-right{
         margin-top: 30px;
     }
+
+    .services .content .card:hover .service-icon{
+        transform: translateY(-10px);
+        color: black;
+    }
+
+    .services .content .card:hover .info h3{
+        transform: translateY(-10px);
+        color: black;
+    }
 }
 
 .scrollToTop-btn{
