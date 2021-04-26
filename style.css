@@ -15,7 +15,6 @@ section{
 
 .main{
     position: relative;
-    width: 100%;
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -569,8 +568,8 @@ body{
 
 @media (max-width: 840px){
     .main{
-        background: linear-gradient(#f5deb34d, #f5deb34d), url(images/bgphn.jpg)no-repeat;
-        background-size: 100%;
+        background: linear-gradient(#f5deb34d, #f5deb34d), url(images/bgphn.JPG)no-repeat;
+        background-size: 100% 100%;
     }
 
     .btn:hover{
