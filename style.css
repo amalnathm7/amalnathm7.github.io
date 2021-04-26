@@ -569,7 +569,7 @@ body{
 
 @media (max-width: 840px){
     .main{
-        background: url(images/bgphn.JPG)no-repeat;
+        background: linear-gradient(#f5deb34d, #f5deb34d), url(images/bgphn.jpg)no-repeat;
         background-size: 100%;
     }
 
