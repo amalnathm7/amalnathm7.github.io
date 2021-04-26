@@ -88,6 +88,15 @@ services[2].addEventListener("click", () => {
     window.open('mailto:amalnathm7@gmail.com?subject=Desktop Development Project');
 })
 
+const header = document.querySelector("header");
+const headerB = document.querySelector("header .brand");
+
 themeBtn.addEventListener("click", () => {
-    
+    themeBtn.classList.toggle("dark");
+    header.classList.toggle("dark");
+    headerB.classList.toggle("dark");
+    menuBtn.classList.toggle("dark");
+    navigationItems.forEach((navigationItems) => {
+        navigationItems.classList.toggle("dark");
+    });
 });
