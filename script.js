@@ -95,7 +95,7 @@ window.addEventListener("DOMContentLoaded", () => {
         splAmal.forEach((span, i) => {
             setTimeout(() => {
                 span.classList.add("active");
-            }, (i + 1) * 400)
+            }, (i + 1) * 600)
         })
 
         setTimeout(() => {
