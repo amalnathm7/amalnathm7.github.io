@@ -7,7 +7,6 @@ const services = document.querySelectorAll(".services .content .card");
 const themeBtn = document.querySelector(".theme-btn");
 const header = document.querySelector("header");
 let splash = document.querySelector(".splash");
-let splHeader = document.querySelector(".splash-header");
 let splAmal = document.querySelectorAll(".splash-amal");
 
 window.addEventListener("scroll", function(){
