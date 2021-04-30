@@ -102,15 +102,15 @@ window.addEventListener("DOMContentLoaded", () => {
         setTimeout(() => {
             splAmal.forEach((span, i) => {
                 setTimeout(() => {
-                    splAmal.classList.remove("active");
+                    span.classList.remove("active");
                     span.classList.add("fade");
                 }, (i + 1) * 50)
             })
-        }, 2000);
+        }, 1700);
 
         setTimeout(() => {
             splash.style.top = '-100vh';
             header.classList.remove("splash");
-        }, 2300)
+        }, 2000)
     })
 })
