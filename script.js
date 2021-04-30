@@ -110,6 +110,7 @@ window.addEventListener("DOMContentLoaded", () => {
         setTimeout(() => {
             splash.style.top = '-100vh';
             header.classList.remove("splash");
+            scrollBtn.classList.remove("splash");
         }, 2000)
     })
 })
