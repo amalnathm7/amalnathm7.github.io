@@ -105,12 +105,12 @@ window.addEventListener("DOMContentLoaded", () => {
                     span.classList.add("fade");
                 }, (i + 1) * 50)
             })
-        }, 1600)
+        }, 2000)
 
         setTimeout(() => {
             splash.style.top = '-100vh';
             header.classList.remove("splash");
             scrollBtn.classList.remove("splash");
-        }, 2000)
+        }, 2300)
     })
 })
