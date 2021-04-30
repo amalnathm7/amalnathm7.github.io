@@ -18,7 +18,7 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: linear-gradient(#f5deb34d, #f5deb34d), url(images/bg.JPG)no-repeat;
+    background: linear-gradient(#53421d33, #53421d33), url(images/bg.JPG)no-repeat;
     background-size: 100% 100%;
     background-position: center;
     background-attachment: fixed;
