@@ -459,6 +459,7 @@ body{
 }
 
 .projects .content .card{
+    cursor: pointer;
     width: 340px;
     margin: 15px;
 }
