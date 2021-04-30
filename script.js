@@ -96,7 +96,7 @@ window.addEventListener("DOMContentLoaded", () => {
             setTimeout(() => {
                 span.classList.add("active");
             }, (i + 1) * 400)
-        });
+        })
 
         setTimeout(() => {
             splAmal.forEach((span, i) => {
@@ -105,7 +105,7 @@ window.addEventListener("DOMContentLoaded", () => {
                     span.classList.add("fade");
                 }, (i + 1) * 50)
             })
-        }, 1700);
+        }, 1600)
 
         setTimeout(() => {
             splash.style.top = '-100vh';
