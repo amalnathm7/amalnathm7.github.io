@@ -75,7 +75,7 @@ projectBtn[3].addEventListener("click", () => {
     window.open("https://www.amazon.com/gp/product/B093T9W9CZ");
 });
 projectBtn[4].addEventListener("click", () => {
-    window.open("https://github.com/amalnathm7/Calculator");
+    window.open("https://www.amazon.com/gp/product/B093SXHL9Z");
 });
 
 services[0].addEventListener("click", () => {
