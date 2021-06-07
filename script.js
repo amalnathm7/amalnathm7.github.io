@@ -62,19 +62,22 @@ function reveal(){
     }
 }
 
+
 projectBtn[0].addEventListener("click", () => {
+    window.open("https://github.com/amalnathm7/Google-Meet-Clone");
+});projectBtn[1].addEventListener("click", () => {
     window.open("https://play.google.com/store/apps/details?id=com.referl.referl");
 });
-projectBtn[1].addEventListener("click", () => {
+projectBtn[2].addEventListener("click", () => {
     window.open("https://www.amazon.com/gp/product/B093THT2VY");
 });
-projectBtn[2].addEventListener("click", () => {
+projectBtn[3].addEventListener("click", () => {
     window.open("images/Memoir Proposal.pdf");
 });
-projectBtn[3].addEventListener("click", () => {
+projectBtn[4].addEventListener("click", () => {
     window.open("https://www.amazon.com/gp/product/B093T9W9CZ");
 });
-projectBtn[4].addEventListener("click", () => {
+projectBtn[5].addEventListener("click", () => {
     window.open("https://www.amazon.com/gp/product/B093SXHL9Z");
 });
 
