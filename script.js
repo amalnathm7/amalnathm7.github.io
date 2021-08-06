@@ -64,31 +64,33 @@ function reveal(){
 
 
 projectBtn[0].addEventListener("click", () => {
+    window.open("https://github.com/amalnathm7/do_it");
+});
+projectBtn[1].addEventListener("click", () => {
     window.open("https://github.com/amalnathm7/Google-Meet-Clone");
-});projectBtn[1].addEventListener("click", () => {
-    window.open("https://play.google.com/store/apps/details?id=com.referl.referl");
 });
 projectBtn[2].addEventListener("click", () => {
-    window.open("https://www.amazon.com/gp/product/B093THT2VY");
+    window.open("https://play.google.com/store/apps/details?id=com.referl.referl");
 });
 projectBtn[3].addEventListener("click", () => {
-    window.open("images/Memoir Proposal.pdf");
+    window.open("https://www.amazon.com/gp/product/B093THT2VY");
 });
 projectBtn[4].addEventListener("click", () => {
-    window.open("https://www.amazon.com/gp/product/B093T9W9CZ");
+    window.open("images/Memoir Proposal.pdf");
 });
 projectBtn[5].addEventListener("click", () => {
+    window.open("https://www.amazon.com/gp/product/B093T9W9CZ");
+});
+projectBtn[6].addEventListener("click", () => {
     window.open("https://www.amazon.com/gp/product/B093SXHL9Z");
 });
 
 services[0].addEventListener("click", () => {
     window.open('mailto:amalnathm7@gmail.com?subject=App Development Project');
 })
-
 services[1].addEventListener("click", () => {
     window.open('mailto:amalnathm7@gmail.com?subject=Web Development Project');
 })
-
 services[2].addEventListener("click", () => {
     window.open('mailto:amalnathm7@gmail.com?subject=Desktop Development Project');
 })
