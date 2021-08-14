@@ -67,7 +67,7 @@ projectBtn[0].addEventListener("click", () => {
     window.open("https://do-it.en.uptodown.com/android");
 });
 projectBtn[1].addEventListener("click", () => {
-    window.open("https://github.com/amalnathm7/Google-Meet-Clone/blob/main/app-arm64-v8a-release.apk");
+    window.open("https://github.com/amalnathm7/Google-Meet-Clone/raw/main/app-arm64-v8a-release.apk");
 });
 projectBtn[2].addEventListener("click", () => {
     window.open("https://play.google.com/store/apps/details?id=com.referl.referl");
@@ -76,7 +76,7 @@ projectBtn[3].addEventListener("click", () => {
     window.open("https://www.amazon.com/gp/product/B093THT2VY");
 });
 projectBtn[4].addEventListener("click", () => {
-    window.open("https://github.com/amalnathm7/Memoir/blob/main/Memoir.exe");
+    window.open("https://github.com/amalnathm7/Memoir/raw/main/Memoir.exe");
 });
 projectBtn[5].addEventListener("click", () => {
     window.open("https://www.amazon.com/gp/product/B093T9W9CZ");
