@@ -63,7 +63,7 @@ function reveal(){
 }
 
 projectBtn[0].addEventListener("click", () => {
-    window.open("https://do-it.en.uptodown.com/android");
+    window.open("https://github.com/amalnathm7/Quark");
 });
 projectBtn[1].addEventListener("click", () => {
     window.open("https://do-it.en.uptodown.com/android");
