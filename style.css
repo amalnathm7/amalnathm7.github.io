@@ -18,7 +18,7 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(images/bg.JPEG)no-repeat;
+    background: url(images/bg.jpeg)no-repeat;
     background-size: 100% 100%;
     background-position: center;
     background-attachment: fixed;
@@ -578,7 +578,7 @@ body{
 
 @media (max-width: 840px){
     .main{
-        background: url(images/bgphn.jpg)no-repeat;
+        background: url(images/bgphn.jpeg)no-repeat;
         background-size: 100% 100%;
     }
 
@@ -662,7 +662,8 @@ body{
 
     .main .content h2{
         font-weight: 600;
-        font-size: 1.2em;  
+        font-size: 1.2em;
+        color: rgb(235, 235, 235);
     }
 
     .animated-text{
@@ -673,6 +674,7 @@ body{
         font-weight: 700;
         font-size: 1.5em;
         line-height: 50px;
+        color: rgb(235, 235, 235);
     }
 
     .animated-text h3:nth-child(1){
