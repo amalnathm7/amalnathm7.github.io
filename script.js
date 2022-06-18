@@ -62,28 +62,63 @@ function reveal(){
     }
 }
 
+function getOS() {
+    var userAgent = window.navigator.userAgent,
+        platform = window.navigator?.userAgentData?.platform || window.navigator.platform,
+        macosPlatforms = ['Macintosh', 'MacIntel', 'MacPPC', 'Mac68K'],
+        windowsPlatforms = ['Win32', 'Win64', 'Windows', 'WinCE'],
+        iosPlatforms = ['iPhone', 'iPad', 'iPod'],
+        os = null;
+  
+    if (macosPlatforms.indexOf(platform) !== -1) {
+      os = 'Mac OS';
+    } else if (iosPlatforms.indexOf(platform) !== -1) {
+      os = 'iOS';
+    } else if (windowsPlatforms.indexOf(platform) !== -1) {
+      os = 'Windows';
+    } else if (/Android/.test(userAgent)) {
+      os = 'Android';
+    } else if (/Linux/.test(platform)) {
+      os = 'Linux';
+    }
+  
+    return os;
+}
+
 projectBtn[0].addEventListener("click", () => {
+    window.open("https://play.google.com/store/apps/details?id=com.tkmce.hestia22");
+});
+if(getOS() == 'Mac OS' || getOS == 'iOS') {
+    projectBtn[1].addEventListener("click", () => {
+        window.open("https://apps.apple.com/us/app/canadianfax/id1620488890");
+    });
+} else {
+    projectBtn[1].addEventListener("click", () => {
+        window.open("https://play.google.com/store/apps/details?id=com.canadian.fax");
+    });
+}
+projectBtn[2].addEventListener("click", () => {
     window.open("https://github.com/amalnathm7/Quark");
 });
-projectBtn[1].addEventListener("click", () => {
+projectBtn[3].addEventListener("click", () => {
     window.open("https://do-it.en.uptodown.com/android");
 });
-projectBtn[2].addEventListener("click", () => {
+projectBtn[4].addEventListener("click", () => {
     window.open("https://github.com/amalnathm7/Google-Meet-Clone/raw/main/app-arm64-v8a-release.apk");
 });
-projectBtn[3].addEventListener("click", () => {
+projectBtn[5].addEventListener("click", () => {
     window.open("https://play.google.com/store/apps/details?id=com.referl.referl");
 });
-projectBtn[4].addEventListener("click", () => {
+projectBtn[6].addEventListener("click", () => {
     window.open("https://www.amazon.com/gp/product/B093THT2VY");
 });
-projectBtn[5].addEventListener("click", () => {
+projectBtn[7].addEventListener("click", () => {
     window.open("https://github.com/amalnathm7/Memoir/raw/main/Memoir.exe");
 });
-projectBtn[6].addEventListener("click", () => {
+projectBtn[8].addEventListener("click", () => {
     window.open("https://www.amazon.com/gp/product/B093T9W9CZ");
 });
-projectBtn[7].addEventListener("click", () => {
+projectBtn[9].addEventListener("click", () => {
     window.open("https://www.amazon.com/gp/product/B093SXHL9Z");
 });
 
