@@ -90,11 +90,11 @@ a:link, a:visited{
     text-decoration: none;
 }
 
-.guzty{
+.company{
     color: rgb(27, 20, 20);
 }
 
-.guzty:hover{
+.company:hover{
     color: rgb(80, 80, 80);
 }
 
